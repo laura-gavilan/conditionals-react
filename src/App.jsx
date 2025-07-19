@@ -7,6 +7,7 @@ import { ProductList } from './components/ProductList/ProductList'
 import { RemoveItemList } from './components/RemoveItemList/RemoveItemList'
 import { TaskList } from './components/TaskList/TaskList'
 import { ToggleItemList } from './components/ToggleItemsList/ToggleItemsList'
+import { UserFiltersList } from './components/UserFiltersList/UserFiltersList'
 
 export const App = () => {
   return (
@@ -29,6 +30,8 @@ export const App = () => {
       <ToggleItemList/>
 
       <OrderManager/>
+
+      <UserFiltersList/>
     </div>
   )
 }
