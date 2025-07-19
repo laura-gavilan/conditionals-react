@@ -7,6 +7,7 @@ import { NamesList } from './components/NameList/NameList'
 import { OrderManager } from './components/OrderManager/OrderManager'
 import { ProductList } from './components/ProductList/ProductList'
 import { RemoveItemList } from './components/RemoveItemList/RemoveItemList'
+import { RestaurantMenu } from './components/RestaurantMenu/RestaurantMenu'
 import { ScoreBoard } from './components/ScoreBoard/ScoreBoard'
 import { TaskList } from './components/TaskList/TaskList'
 import { ToggleItemList } from './components/ToggleItemsList/ToggleItemsList'
@@ -41,7 +42,8 @@ export const App = () => {
       <MovieFavorites/>
 
       <EmailCollector/>
-      
+
+      <RestaurantMenu/>
     </div>
   )
 }
