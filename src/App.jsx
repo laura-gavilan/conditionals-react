@@ -1,6 +1,8 @@
 import './App.css'
 import { AddFruitForm } from './components/AddFruitForm/AddFruitForm'
 import { DynamicShoppingList } from './components/DynamicShoppingList/DynamicShoppingList'
+import { EmailCollector } from './components/EmailCollector/EmailCollector'
+import { MovieFavorites } from './components/MovieFavorites/MovieFavorites'
 import { NamesList } from './components/NameList/NameList'
 import { OrderManager } from './components/OrderManager/OrderManager'
 import { ProductList } from './components/ProductList/ProductList'
@@ -35,6 +37,11 @@ export const App = () => {
       <UserFiltersList/>
 
       <ScoreBoard/>
+
+      <MovieFavorites/>
+
+      <EmailCollector/>
+      
     </div>
   )
 }
