@@ -2,6 +2,7 @@ import './App.css'
 import { AddFruitForm } from './components/AddFruitForm/AddFruitForm'
 import { DynamicShoppingList } from './components/DynamicShoppingList/DynamicShoppingList'
 import { NamesList } from './components/NameList/NameList'
+import { OrderManager } from './components/OrderManager/OrderManager'
 import { ProductList } from './components/ProductList/ProductList'
 import { RemoveItemList } from './components/RemoveItemList/RemoveItemList'
 import { TaskList } from './components/TaskList/TaskList'
@@ -26,6 +27,8 @@ export const App = () => {
       <DynamicShoppingList/>
 
       <ToggleItemList/>
+
+      <OrderManager/>
     </div>
   )
 }
