@@ -1,4 +1,5 @@
 import './App.css'
+import { AddFruitForm } from './components/AddFruitForm/AddFruitForm'
 import { NamesList } from './components/NameList/NameList'
 import { ProductList } from './components/ProductList/ProductList'
 import { TaskList } from './components/TaskList/TaskList'
@@ -15,6 +16,7 @@ export const App = () => {
 
       <TaskList/>
       
+      <AddFruitForm/>
     </div>
   )
 }
